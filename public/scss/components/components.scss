@@ -1,9 +1,12 @@
 /*-------- Basic --------*/
 @import './basic.scss';
-@import './header.scss';
 @import './footer.scss';
+
+/*-------- Elements --------*/
+@import './info.scss';
+@import './button.scss';
+@import './swiper.scss';
 
 /*-------- Sections --------*/
 @import './banner.scss';
-@import './app.scss';
-@import './stage.scss';
+@import './columns.scss';

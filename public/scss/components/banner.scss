@@ -1,153 +1,24 @@
 /*-------- Banner --------*/
 
 .banner {
-    height: 1010px;
-    margin-bottom: -301px;
-    background-image: url(../images/banner/bannerBg.webp);
+    background-image: url(../images/banner/background.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
-    &__wrapper {
+    &__columns {
         display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        height: calc(100% - 295px);
-        text-align: center;
+        align-items: flex-start;
+        padding-top: 89px;
+        padding-bottom: 52px;
     }
 
-    &__title {
-        font-size: 139px;
-        font-family: $font-fs-rd-o;
+    &__logo {
+        width: 51%;
     }
 
-    &__title--2 {
-        fill: #fff;
-    }
-
-    &__title--3 {
-        fill: none;
-        stroke: #000;
-        stroke-miterlimit: 10;
-        stroke-width: 2px;
-    }
-
-    &__text {
-        margin-top: -40px;
-        font-family: $font-fs-r;
-        font-size: 65px;
-        color: #ffffff;
-    }
-
-    &__svg {
-        width: 86%;
-    }
-}
-
-@media (max-width: 1279px) {
-
-    .banner {
-        height: 700px;
-        margin-bottom: -98px;
-
-        &__wrapper {
-            height: calc(100% - 98px);
-        }
-
-        &__text {
-            font-size: 60px;
-        }
-    }
-}
-
-@media (max-width: 1219px) {
-
-    .banner {
-
-        &__text {
-            margin-top: -30px;
-            font-size: 51px;
-        }
-    }
-}
-
-@media (max-width: 1099px) {
-
-    .banner {
-        height: 700px;
-        margin-bottom: -139px;
-
-        &__wrapper {
-            height: calc(100% - 139px);
-        }
-
-        &__text {
-            margin-top: -26px;
-            font-size: 48px;
-        }
-    }
-}
-
-@media (max-width: 989px) {
-
-    .banner {
-        height: 590px;
-            
-        &__text {
-            margin-top: -21px;
-            font-size: 36px;
-        }
-    }
-}
-
-@media (max-width: 767px) {
-
-    .banner {
-        height: 502px;
-        margin-bottom: -134px;
-
-        &__svg {
-            width: 100%;
-        }
-
-        &__wrapper {
-            height: calc(100% - 134px);
-        }
-    }
-}
-
-@media (max-width: 619px) {
-
-    .banner {
-
-        &__text {
-            margin-top: -12px;
-            font-size: 27px;
-        }
-    }
-}
-
-@media (max-width: 479px) {
-
-    .banner {
-        height: 378px;
-        margin-bottom: -42px;
-
-        &__wrapper {
-            height: calc(100% - 42px);
-        }
-
-        &__text {
-            margin-top: -6px;
-            font-size: 21px;
-        }
-    }
-}
-
-@media (max-width: 328px) {
-
-    .banner {
-        height: 363px;
+    &__image {
+        width: 49%;
+        padding-left: 118px;
     }
 }

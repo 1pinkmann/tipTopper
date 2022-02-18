@@ -4,6 +4,7 @@
 
 body {
     min-width: 320px;
+    font-family: $font-l;
     font-size: 14px;
     color: #000000;
 }
@@ -49,7 +50,7 @@ input[type="number"] {
 
 .container {
     width: 100%;
-    max-width: 1414px;
+    max-width: 1493px;
     margin-left: auto;
     margin-right: auto;
     padding: 0 20px;

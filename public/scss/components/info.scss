@@ -1,0 +1,47 @@
+/*-------- Info --------*/
+
+.info {
+    background-color: $blue;
+
+    font-size: 35px;
+    color: #fff;
+    text-align: center;
+    line-height: 1.2;
+
+    & strong {
+        font-family: $font-b;
+    }
+
+    &__wrapper {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.info {
+
+    &--v1 {
+        padding-top: 80px;
+        padding-bottom: 54px;
+    }
+
+    &--v1 &__wrapper {
+        max-width: 1279px;
+    }
+}
+
+.info {
+
+    &--v2 {
+        font-size: 48px;
+    }
+
+    &--v2 &__wrapper {
+        max-width: 100%;
+
+        padding-top: 44px;
+        padding-bottom: 44px;
+
+        font-family: $font-fs-r;
+    }
+}

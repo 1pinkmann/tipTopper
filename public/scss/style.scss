@@ -1,10 +1,14 @@
 /*-------- Fonts --------*/
+$font-l: "Gotham-Light";
 $font-m: "Lato-Medium";
-$font-b: "Lato-Bold";
-$font-black: "Lato-Black";
+$font-b: "Gotham-Bold";
+$font-lato: "Lato";
 $font-fs-r: "Flintstock-Regular";
-$font-fs-rd: "Flintstock-Round";
-$font-fs-o: "Flintstock-Oblique";
 $font-fs-rd-o: "Flintstock-Round-Oblique";
+
+/*-------- Colors --------*/
+$green: #55B36D;
+$blue: #64fffb;
+$orange: #ff9500;
 
 @import './components/components.scss';

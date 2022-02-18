@@ -5,93 +5,110 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Picklejar</title>
+    <title>Tip Topper</title>
     <link rel="stylesheet" href="./fonts/stylesheet.css">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <header class="header">
-        <div class="header__wrapper container">
-            <a href="#" class="header__logo">
-                <svg class="header__logo-icon">
-                    <use xlink:href="./sprite.svg#alogo">
-                </svg>
-            </a>
-            <a href="#" class="header__link">See program Terms and Details*</a>
-        </div>
-    </header>
     <section class="banner">
-        <div class="banner__wrapper container">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1213.88 189.64" class="banner__svg">
-                <text class="banner__title banner__title--1" transform="translate(11.86 133.77)">
-                    ARTIST HELP ARTIST!
-                </text>
-                <text class="banner__title banner__title--2" transform="translate(5 127.74)">
-                    ARTIST HELP ARTIST!
-                </text>
-                <text class="banner__title banner__title--3" transform="translate(1 121.75)">
-                    ARTIST HELP ARTIST!
-                </text>
-            </svg>
-            <p class="banner__text">Tell your friends about picklejar</p>
+        <div class="banner__columns container">
+            <img src="./images/tiptopper.webp" alt="tip topper" class="banner__logo">
+            <img src="./images/banner/phones.png" alt="phones" class="banner__image">
         </div>
     </section>
-    <section class="app">
-        <div class="app__background"></div>
-        <div class="app__wrapper container">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 899.67 570.98" class="app__icon">
-                <path fill="#ffffff"
-                    d="M411.14,0H76.6A76.83,76.83,0,0,0,0,76.6V229.47a76.83,76.83,0,0,0,76.6,76.6H197.29c6.92,18.46,14.58,52.1-6.24,80.17,0,0,96-17.35,137.73-80.17h82.36a76.82,76.82,0,0,0,76.59-76.6V76.6A76.82,76.82,0,0,0,411.14,0Z" />
-                <path class="cls-2" fill="#f8a340"
-                    d="M381.75,86.85h424.5c51.38,0,93.42,42,93.42,93.42V377.06c0,51.38-42,93.42-93.42,93.42H652.38c-8.67,23.14-18.28,65.31,7.83,100.5,0,0-120.34-21.76-172.64-100.5H381.75c-51.38,0-93.42-42-93.42-93.42V180.27C288.33,128.89,330.37,86.85,381.75,86.85Z" />
-                <text class="app__title" transform="translate(412.53 393.71)">
-                    <tspan class="cls-4" x="13.43" y="0">f</tspan>
-                    <tspan x="37.01" y="0">or eve</tspan>
-                    <tspan class="cls-5" x="187" y="0">r</tspan>
-                    <tspan x="213.48" y="0">y ar</tspan>
-                    <tspan class="cls-6" x="318.93" y="0">t</tspan>
-                    <tspan class="cls-7" x="346.01" y="0">i</tspan>
-                    <tspan class="cls-8" x="359.33" y="0">s</tspan>
-                    <tspan x="386.62" y="0">t </tspan>
-                    <tspan class="cls-5" x="0" y="52.11">y</tspan>
-                    <tspan x="30.46" y="52.11">ou bring on! </tspan>
-                </text>
-                <text class="app__text app__text--1" font-size="264.27px"
-                    transform="translate(337.49 339.89)">$25</text>
-                <text class="app__text app__text--2" font-size="264.27px" fill="#ffffff"
-                    transform="translate(323.43 328.91)">$25</text>
-                <text class="app__text app__text--3" font-size="264.27px"
-                    transform="translate(317.06 322.65)">$25</text>
-                <text class="app__text app__text--4" transform="translate(60.19 167.17)">EARN</text>
-            </svg>
-            <img src="./images/app/phone.png" alt="phone" class="app__image">
+    <section class="info info--v1">
+        <p class="info__wrapper container">
+            PickleJar`s peer-to-peer <strong>cashless tipping technology</strong> and <strong>Fan Rewards</strong>
+            make it the first <strong>social payments app</strong> specifically built to connect Fans
+            with <strong>more of what they love - your Venue and live music!</strong>
+        </p>
+    </section>
+    <section class="columns">
+        <img src="./images/columns/img1.png" alt="Image" class="columns__image">
+        <div class="columns__text-wrapper">
+            <h1 class="columns__title">PR Title 1</h1>
+            <p class="columns__text">
+                <strong>PickleJar</strong> announces the release of its new
+                TipTopper, a contactless menu upgrade made
+                exclusively for venues that allows patrons to
+                access the innovatve features of <strong>PickleJar</strong>
+                without having to download the app,
+                enhancing the fan experience.
+            </p>
+            <a href="#" class="button columns__button">Download</a>
         </div>
     </section>
-    <section class="stage container">
-        <div class="stage__image-wrapper">
-            <img src="./images/box/stage.png" alt="" class="stage__image">
-            <h2 class="stage__image-wrapper-title"><span>@</span>StageName</h2>
+    <section class="swiper-container">
+        <div class="container">
+            <button class="swiper-button swiper-button--left" id="swiper-left"></button>
+            <div class="swiper" id="swiper">
+                <ul class="swiper-wrapper">
+                    <li class="swiper-slide">
+                        <img src="./images/swiper/img.png" alt="image" class="swiper-image">
+                        <p class="swiper-text">
+                            Food and Drink Menu
+                            Contactless Engagement with
+                            Partnering Venues Expands
+                            Well Beyond the Standard
+                        </p>
+                    </li>
+                    <li class="swiper-slide">
+                        <img src="./images/swiper/img.png" alt="image" class="swiper-image">
+                        <p class="swiper-text">
+                            Food and Drink Menu
+                            Contactless Engagement with
+                            Partnering Venues Expands
+                            Well Beyond the Standard
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <button class="swiper-button swiper-button--right" id="swiper-right"></button>
         </div>
-        <p class="stage__text">
-            <strong>REFER A FRIEND TO PICKLEJAR AND EARN REAL CASH.</strong>
+    </section>
+    <section class="columns columns--reverse">
+        <div class="columns__text-wrapper">
+            <h1 class="columns__title columns__title--orange">Picklejar info</h1>
+            <p class="columns__text">
+                Lorem ipsum dolor sit amet, consectetuer
+                tincidunt ut laoreet dolore magna aliquam erat
+                volutpat. Ut wisi enim ad minim veniam, quis
+                nostrud exerci tation ullamcorper suscipit lobortis
+                nisl ut
+                Lorem ipsum dolor sit amet, consectetuer
+                adipiscing elit, sed diam nonummy nibh euismod
+            </p>
+        </div>
+        <img src="./images/columns/img2.png" alt="Image" class="columns__image">
+    </section>
+    <section class="info info--v2">
+        <p class="info__wrapper container">
+            Now in locations across 
             <br>
-            Give them your @StageName to use as the referral code when they
+            Texas, Tennessee, California, and Illinois. 
             <br>
-            create their own account and we will send you $25!
+            Here are some of our favorites.
         </p>
     </section>
     <footer class="footer">
         <div class="footer__wrapper container">
-            <a href="#" class="footer__logo">
-                <svg class="footer__logo-icon">
-                    <use xlink:href="./sprite.svg#alogo">
-                </svg>
-            </a>
-            <a href="#" class="footer__link">See program Terms and Details*</a>
+            <img src="./images/tiptopper.webp" alt="tip topper" class="footer__logo">
         </div>
     </footer>
 </body>
+<script src="./js/swiper-bundle.min.js"></script>
+<script>
+    const swiper = new Swiper("#swiper", {
+        spaceBetween: 300,
+        navigation: {
+            nextEl: '#swiper-right',
+            prevEl: '#swiper-left',
+        },
+        grabCursor: true
+    });
+    console.log(swiper);
+</script>
 
 </html>

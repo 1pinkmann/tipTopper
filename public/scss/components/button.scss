@@ -1,0 +1,23 @@
+/*-------- Button --------*/
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 73px;
+    width: 240px;
+
+    font-family: $font-lato;
+    font-size: 30px;
+    color: #fff;
+
+    background-color: $green;
+    border-radius: 10px;
+
+    transition: background-color 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+
+    &:hover {
+        background-color: #7be095;
+    }
+}
