@@ -33,15 +33,42 @@
 .info {
 
     &--v2 {
+        padding-top: 44px;
+        padding-bottom: 44px;
         font-size: 48px;
     }
 
     &--v2 &__wrapper {
         max-width: 100%;
 
-        padding-top: 44px;
-        padding-bottom: 44px;
-
         font-family: $font-fs-r;
+    }
+}
+
+@media (max-width: 989px) {
+
+    .info {
+        padding-top: 40px;
+        padding-bottom: 40px;
+
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .info {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 479px) {
+
+    .info {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 18px;
     }
 }

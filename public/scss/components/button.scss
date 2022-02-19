@@ -21,3 +21,32 @@
         background-color: #7be095;
     }
 }
+
+.button {
+
+    &--orange {
+        background-color: $orange;
+    }
+
+    &--orange:hover {
+        background-color: #ffb753;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .button {
+        height: 50px;
+        width: 160px;
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 479px) {
+
+    .button {
+        height: 45px;
+        width: 140px;
+        font-size: 18px;
+    }
+}

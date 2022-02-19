@@ -20,3 +20,31 @@
         width: 31%;
     }
 }
+
+@media (max-width: 989px) {
+
+    .footer {
+
+        &__wrapper {
+            height: 260px;
+        }
+
+        &__logo {
+            width: 280px;
+        }
+    }
+}
+
+@media (max-width: 479px) {
+
+    .footer {
+
+        &__wrapper {
+            height: 220px;
+        }
+
+        &__logo {
+            width: 200px;
+        }
+    }
+}
