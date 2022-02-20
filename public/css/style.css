@@ -102,7 +102,7 @@ input[type=number] {
 .info {
   background-color: #64fffb;
   font-size: 35px;
-  color: #fff;
+  color: #000;
   text-align: center;
   line-height: 1.2;
 }
